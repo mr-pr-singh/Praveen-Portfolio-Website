@@ -33,21 +33,17 @@
         opacity: 0;
     }
     .h-nav-resp{
-        height: 5rem;
+        height: 84px;
        
     }
     .nav{
         flex-direction: column;
-        justify-content: flex-start;
+        height: 287px;
         transition: all 0.7s ease-out;
     }
     .logo{
         padding: 0;
         justify-content: center;
-    }
-    .logo img{
-        width: 9rem;
-        height: 9rem;
     }
     .nav ul{
         padding: 0;
@@ -57,7 +53,6 @@
     }
     .nav ul li{
          margin: 0.5rem 0;
-         font-size: 1.8rem;
     }
     .section{
         height: 58rem;
@@ -68,27 +63,16 @@
         align-items: center;
         width: 80%;
     }
-    .tag{
-        font-size: 3rem;
-    }
-    .text{
-        font-size: 2.6rem;
-    }
     .education{
-        font-size: 1.9rem;
         height: 36rem;
     }
-    .skills{
-        font-size: 1.5rem;
-    }
-    .btn{
-        font-size: 1.5rem;
-    }
     .contact{
-        font-size: 1.5rem;
         height: 24rem;
     }
     .burger{
         display: block;
     }
+}
+@media only screen and (max-width: 750px){
+
 }
