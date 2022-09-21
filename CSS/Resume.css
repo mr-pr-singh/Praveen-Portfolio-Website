@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* navbar style */
+#nav{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: #358597;
+    display: flex;
+    border-bottom: 1px solid #ddddde;
+}
+.logo{
+    padding-left: 4rem;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+     width: 79px;
+     height: 79px;
+}
+#nav ul{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    padding-right: 82px;
+    justify-content: end;
+    align-items: center;
+
+}
+#nav ul li{
+   list-style: none;
+   margin: 0px 29px;
+
+}
+#nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    cursor: pointer;
+    color: #acaeb3;
+}
+/* section style */
+.section{
+     background-color: #358597;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 35rem;
+     width: 100%;
+     color: #ddddde;
+     border-bottom: 1px solid #ddddde;
+}
+.container1{
+    width: 34%;
+    margin-right: 11rem;
+}
+.tag{
+    font-size: 2.5rem;
+    color: rgb(27, 23, 23);
+}
+.text{
+    margin-top: 1rem;
+    font-size: 1.9rem;
+}
+.container2{
+    align-items: center;
+    width: 38%;
+    display: flex;
+    justify-content: center;
+}
+.container2 img{
+    width: 27rem;
+    height: 27rem;
+    border-radius: 25rem;
+    border: 3px solid #f4a896;
+}
+/* Educational part    */
+.education{
+    height: 23rem;
+    background-color: #358597;
+    color:#ddddde;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    border-bottom: 1px solid #ddddde;
+   
+}
+.edu{
+    color: rgb(27, 23, 23);
+    margin-bottom: 1.5rem;
+}
+.info{
+    margin: 1.2rem 0;
+    margin-left: 1rem;
+}
+/* Skill part */
+.skills{
+    height: 19rem;
+    background-color: #358597;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddddde;
+    justify-content: center;
+    padding-left: 6rem;
+    color: rgb(27, 23, 23);
+}
+.lang{
+    margin-top: 1rem;
+}
+.btn{
+    margin: 0 1rem;
+    padding: 5px 7px;
+    border-radius: 6px;
+    background-color: #ddddde;
+    border: 1px solid #ddddde;
+    color: rgb(14, 13, 13);
+}
+/* Contact part */
+.contact{
+    height: 19rem;
+    background-color: #358597;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+}
+.detail{
+    color: rgb(27, 23, 23);
+    margin-bottom: 0.7rem;
+}
+.contactMe ul li{
+    list-style: none;
+}
+.contactMe ul li a{
+    text-decoration: none;
+    color: #ddddde;
+
+}
+.contactMe ul li a:hover{
+    cursor: pointer;
+}
+i{
+    color: #ddddde;
+    margin-right: 7px;
+}
+.listitem{
+    margin: 1rem 0;
+    margin-left: 1.2rem;
+}

@@ -1,0 +1,80 @@
+@media (max-width:1033px){
+    .section{
+        flex-direction: column-reverse;
+        height: 65rem;
+    }
+    .container1{
+        margin-right: 0;
+        margin-top: 3rem;
+    }
+    .list{
+        width: 45%;
+    }
+    .education{
+        padding: 0 5rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .info{
+        margin: 1.2rem 0;
+    }
+    .skills{
+        padding: 0;
+        align-items: center;
+    }
+    .contact{
+        padding: 0;
+        align-items: center;
+    }
+}
+@media (max-width: 918px){
+#nav{
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 28rem;
+}
+.logo{
+    padding: 0;
+    justify-content: center;
+}
+.logo img{
+    width: 9rem;
+    height: 9rem;
+}
+#nav ul{
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    height: 46vh;
+}
+#nav ul li{
+     margin: 0.5rem 0;
+     font-size: 1.8rem;
+}
+.section{
+    height: 36rem;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.tag{
+    font-size: 3rem;
+}
+.text{
+    font-size: 2.6rem;
+}
+.skills{
+    font-size: 1.5rem;
+}
+.btn{
+    font-size: 1.5rem;
+}
+.contact{
+    font-size: 1.5rem;
+    height: 24rem;
+}
+}
