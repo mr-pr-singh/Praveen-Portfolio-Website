@@ -38,7 +38,6 @@
     }
     .nav{
         flex-direction: column;
-        height: 287px;
         transition: all 0.7s ease-out;
     }
     .logo{
@@ -49,7 +48,7 @@
         padding: 0;
         flex-direction: column;
         justify-content: center;
-        height: 46vh;
+        height: 37vh;
     }
     .nav ul li{
          margin: 0.5rem 0;
@@ -73,6 +72,19 @@
         display: block;
     }
 }
-@media only screen and (max-width: 750px){
-
+@media only screen and (max-width: 516px){
+    .section{
+        height: 63rem;
+    }
+     .container2 img{
+        width: 226px;
+        height: 226px;
+     }
+     .education{
+        padding: 0 1rem;
+        height: 45rem;
+     }
+     .btn{
+        margin: 0;
+     }
 }
