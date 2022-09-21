@@ -29,52 +29,56 @@
     }
 }
 @media (max-width: 918px){
-#nav{
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 28rem;
-}
-.logo{
-    padding: 0;
-    justify-content: center;
-}
-.logo img{
-    width: 9rem;
-    height: 9rem;
-}
-#nav ul{
-    padding: 0;
-    flex-direction: column;
-    justify-content: center;
-    height: 46vh;
-}
-#nav ul li{
-     margin: 0.5rem 0;
-     font-size: 1.8rem;
-}
-.section{
-    height: 36rem;
-}
-.container1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-}
-.tag{
-    font-size: 3rem;
-}
-.text{
-    font-size: 2.6rem;
-}
-.skills{
-    font-size: 1.5rem;
-}
-.btn{
-    font-size: 1.5rem;
-}
-.contact{
-    font-size: 1.5rem;
-    height: 24rem;
-}
+    #nav{
+     flex-direction: column;
+     justify-content: flex-start;
+     height: 28rem;
+    }
+    .logo{
+        padding: 0;
+        justify-content: center;
+    }
+    .logo img{
+        width: 9rem;
+        height: 9rem;
+    }
+    #nav ul{
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        height: 46vh;
+    }
+    #nav ul li{
+         margin: 0.5rem 0;
+         font-size: 1.8rem;
+    }
+    .section{
+        height: 58rem;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .tag{
+        font-size: 3rem;
+    }
+    .text{
+        font-size: 2.6rem;
+    }
+    .education{
+        font-size: 1.9rem;
+        height: 36rem;
+    }
+    .skills{
+        font-size: 1.5rem;
+    }
+    .btn{
+        font-size: 1.5rem;
+    }
+    .contact{
+        font-size: 1.5rem;
+        height: 24rem;
+    }
 }
