@@ -28,11 +28,18 @@
         align-items: center;
     }
 }
-@media (max-width: 918px){
-    #nav{
-     flex-direction: column;
-     justify-content: flex-start;
-     height: 28rem;
+@media only screen and (max-width: 918px){
+    .v-class-resp{
+        opacity: 0;
+    }
+    .h-nav-resp{
+        height: 5rem;
+       
+    }
+    .nav{
+        flex-direction: column;
+        justify-content: flex-start;
+        transition: all 0.7s ease-out;
     }
     .logo{
         padding: 0;
@@ -42,13 +49,13 @@
         width: 9rem;
         height: 9rem;
     }
-    #nav ul{
+    .nav ul{
         padding: 0;
         flex-direction: column;
         justify-content: center;
         height: 46vh;
     }
-    #nav ul li{
+    .nav ul li{
          margin: 0.5rem 0;
          font-size: 1.8rem;
     }
@@ -80,5 +87,8 @@
     .contact{
         font-size: 1.5rem;
         height: 24rem;
+    }
+    .burger{
+        display: block;
     }
 }
