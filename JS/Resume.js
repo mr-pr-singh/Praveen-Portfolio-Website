@@ -1,4 +1,4 @@
-// responsive nav
+//  for responsive nav 
 nav = document.querySelector('.nav');
 burger = document.querySelector('.burger');
 logo = document.querySelector('.logo');
