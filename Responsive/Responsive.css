@@ -35,13 +35,13 @@
     .v-class-resp{
         opacity: 0;
     }
-    .h-nav-resp{
-        height: 84px;
-       
-    }
     .nav{
         flex-direction: column;
+        height: 350px;
         transition: all 0.7s ease-out;
+    }
+    .h-nav-resp{
+        height: 84px;
     }
     .logo{
         padding: 0;
@@ -51,7 +51,7 @@
         padding: 0;
         flex-direction: column;
         justify-content: center;
-        height: 37vh;
+        height: 35vh;
     }
     .nav ul li{
          margin: 0.5rem 0;
