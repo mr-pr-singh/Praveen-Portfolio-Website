@@ -10,10 +10,9 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: #358597;
+    background-color: #009688;
     display: flex;
-    height: 84px;
-    border-bottom: 1px solid #ddddde;
+    height: 67px;
 }
 .logo{
     padding-left: 4rem;
@@ -22,8 +21,8 @@
     align-items: center;
 }
 .logo img{
-     width: 79px;
-     height: 79px;
+     width: 67px;
+     height: 67px;
 }
 .nav ul{
     width: 100%;
@@ -48,14 +47,13 @@
 }
 /* section style */
 .section{
-     background-color: #358597;
+     background-color: #009688e3;
      display: flex;
      justify-content: center;
      align-items: center;
      height: 35rem;
      width: 100%;
-     color: #ddddde;
-     border-bottom: 1px solid #ddddde;
+     color: #ffffff;
 }
 .container1{
     width: 34%;
@@ -63,7 +61,7 @@
 }
 .tag{
     font-size: 40px;
-    color: rgb(27, 23, 23);
+    color: #00325a;
 }
 .text{
     margin-top: 1rem;
@@ -76,26 +74,25 @@
     justify-content: center;
 }
 .container2 img{
-    width: 432px;
-    height: 432px;
+    width: 420px;
+    height: 420px;
     border-radius: 25rem;
-    border: 3px solid #3de218;
+    border: 3px solid #3F51B5;
 }
 /* Educational part    */
 .education{
     height: 24rem;
-    background-color: #358597;
-    color:#ddddde;
+    background-color: #009688;
+    color:#ffffff;
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    justify-content: center;
     padding-left: 6rem;
-    border-bottom: 1px solid #ddddde;
    
 }
 .edu{
     font-size: 30px;
-    color: rgb(27, 23, 23);
+    color: #00325a;
     margin-bottom: 1.5rem;
 }
 .info{
@@ -106,13 +103,12 @@
 /* Skill part */
 .skills{
     height: 19rem;
-    background-color: #358597;
+    background-color: #009688;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #ddddde;
     justify-content: center;
     padding-left: 6rem;
-    color: rgb(27, 23, 23);
+    color: #00325a;
 }
 .lang{
     margin-top: 1rem;
@@ -121,21 +117,21 @@
     margin: 0 1rem;
     padding: 5px 7px;
     border-radius: 6px;
-    background-color: #ddddde;
-    border: 1px solid #ddddde;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
     color: rgb(14, 13, 13);
 }
 /* Contact part */
 .contact{
     height: 19rem;
-    background-color: #358597;
+    background-color: #009688cc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 6rem;
 }
 .detail{
-    color: rgb(27, 23, 23);
+    color: #00325a;
     margin-bottom: 0.7rem;
 }
 .contactMe ul li{
@@ -143,14 +139,14 @@
 }
 .contactMe ul li a{
     text-decoration: none;
-    color: #ddddde;
+    color: #ffffff;
 
 }
 .contactMe ul li a:hover{
     cursor: pointer;
 }
 i{
-    color: #ddddde;
+    color: #ffffff;
     margin-right: 7px;
 }
 .listitem{
@@ -166,10 +162,10 @@ i{
     top: 17px;
     padding: 7px;
     border-radius: 4px;
-    border: 1px solid #ffffff;
+    border: 1px solid #00fffd;
 }
 .line{
-    background-color: #795548;
+    background-color: #782406;
     width: 36px;
     height: 4px;
     margin: 5px 3px;
