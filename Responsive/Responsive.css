@@ -19,8 +19,6 @@
         clip-path:polygon(0% 0px, 100% 0%, 100% 100%, 0px 100%);
     }
     .container2 img{
-        width: 800px;
-        height: 694px;
         border-radius: 16px;
     }
     .education{
@@ -79,9 +77,6 @@
     .section{
         height: 54rem;
     }
-    .container2 img{
-        height: 318px;
-    }
     .education{
         height: 50rem;
         padding: 0;
@@ -98,9 +93,6 @@
         padding: 0 7px;
         height: 65rem;
     }
-     .container2 img{
-        height: 350px;
-     }
      .academic{
         height: 81rem;
      }
